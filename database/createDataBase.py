@@ -16,5 +16,5 @@ def _create_db():
         port = int(sae.const.MYSQL_PORT)
     except ImportError:
         pass
-    # return web.database(dbn='mysql', host=host, port=port, db=db, user=user, pw=pw)
+    # return pythonweb.database(dbn='mysql', host=host, port=port, db=db, user=user, pw=pw)
 # db = _create_db()

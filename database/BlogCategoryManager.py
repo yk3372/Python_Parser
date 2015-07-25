@@ -41,7 +41,7 @@ if __name__ == '__main__':
     sqlManager = BlogCategoryManager()
     sqlManager.create_connection()
     sqlManager.create_blog_category()
-    names = ['Python教程', 'JavaScript教程', 'Git教程']
+    names = ['Python3.0教程', 'Python2.7教程', 'JavaScript教程', 'Git教程']
     sqlManager.insert_into_blog_category(*names)
     print(sqlManager.fetch_from_blog_category())
     sqlManager.close_conn()

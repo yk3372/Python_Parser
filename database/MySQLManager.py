@@ -5,7 +5,7 @@ import mysql.connector
 class MySQLManager(object):
     user_name = "root"
     user_password = "1234"
-    user_database = "test"
+    user_database = "yk_blog"
     connection = None
 
     def create_connection(self):

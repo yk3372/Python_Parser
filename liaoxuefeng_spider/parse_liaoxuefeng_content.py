@@ -45,6 +45,7 @@ sql_manager.close_conn()
 
 sql_manager = LiaoXueFengContentManager()
 sql_manager.create_connection()
+sql_manager.create_content()
 for item in directors:
     print(item[1], item[2])
     ret_content = get_content_from_url(item[1], item[2])

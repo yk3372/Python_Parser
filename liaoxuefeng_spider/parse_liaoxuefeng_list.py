@@ -7,10 +7,10 @@ from database import LiaoXueFengDirectorManager
 user_agent = r"Mozilla/5.0 (Linux; Android 4.4.4; en-us; Nexus 5 Build/JOP40D)" \
              r" AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2307.2 Mobile Safari/537.36"
 
-python_url_2_7 = (14, 'http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000')
-python_url = (9, 'http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000')
-git_url = (11, 'http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000')
-js_url = (10, 'http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000')
+python_url = (4, 'http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000')
+python_url_2_7 = (5, 'http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000')
+js_url = (6, 'http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000')
+git_url = (7, 'http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000')
 
 
 def get_directory(*url):
